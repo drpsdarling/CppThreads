@@ -1,0 +1,93 @@
+﻿  stdafx.cpp
+  PackagedTaskWrapCallableAssync.cpp
+c:\c++threads\packagedtaskwrapcallableassync\packagedtaskwrapcallableassync\packagedtaskwrapcallableassync.cpp(12): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits(1468): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\functional(213): note: see reference to function template instantiation '_Rx std::_Invoke_ret<_Rx,_Callable&,_Ty,_Ty>(std::_Forced<_Rx,false>,_Callable &,_Ty &&,_Ty &&)' being compiled
+          with
+          [
+              _Rx=int,
+              _Callable=_Decayed,
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\functional(211): note: while compiling class template member function 'int std::_Func_impl<_Decayed,_Alloc,_Ret,int,int>::_Do_call(int &&,int &&)'
+          with
+          [
+              _Alloc=std::allocator<int>,
+              _Ret=int
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\functional(137): note: see reference to class template instantiation 'std::_Func_impl<_Decayed,_Alloc,_Ret,int,int>' being compiled
+          with
+          [
+              _Alloc=std::allocator<int>,
+              _Ret=int
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\functional(348): note: see reference to class template instantiation 'std::_Is_large<_Myimpl>' being compiled
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\functional(327): note: see reference to function template instantiation 'void std::_Func_class<_Ret,int,int>::_Reset_alloc<_Ty,std::allocator<int>>(_Fx &&,const _Alloc &)' being compiled
+          with
+          [
+              _Ret=int,
+              _Ty=task_lambda::<lambda_556b4aaefa35b145d70024edf65aad6d>,
+              _Fx=task_lambda::<lambda_556b4aaefa35b145d70024edf65aad6d>,
+              _Alloc=std::allocator<int>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\functional(327): note: see reference to function template instantiation 'void std::_Func_class<_Ret,int,int>::_Reset_alloc<_Ty,std::allocator<int>>(_Fx &&,const _Alloc &)' being compiled
+          with
+          [
+              _Ret=int,
+              _Ty=task_lambda::<lambda_556b4aaefa35b145d70024edf65aad6d>,
+              _Fx=task_lambda::<lambda_556b4aaefa35b145d70024edf65aad6d>,
+              _Alloc=std::allocator<int>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\functional(498): note: see reference to function template instantiation 'void std::_Func_class<_Ret,int,int>::_Reset<task_lambda::<lambda_556b4aaefa35b145d70024edf65aad6d>>(_Fx &&)' being compiled
+          with
+          [
+              _Ret=int,
+              _Fx=task_lambda::<lambda_556b4aaefa35b145d70024edf65aad6d>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\functional(498): note: see reference to function template instantiation 'void std::_Func_class<_Ret,int,int>::_Reset<task_lambda::<lambda_556b4aaefa35b145d70024edf65aad6d>>(_Fx &&)' being compiled
+          with
+          [
+              _Ret=int,
+              _Fx=task_lambda::<lambda_556b4aaefa35b145d70024edf65aad6d>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\future(582): note: see reference to function template instantiation 'std::function<_Ret (int,int)>::function<_Ty,double,void>(_Fx)' being compiled
+          with
+          [
+              _Ret=int,
+              _Ty=task_lambda::<lambda_556b4aaefa35b145d70024edf65aad6d>,
+              _Fx=task_lambda::<lambda_556b4aaefa35b145d70024edf65aad6d>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\future(581): note: see reference to function template instantiation 'std::function<_Ret (int,int)>::function<_Ty,double,void>(_Fx)' being compiled
+          with
+          [
+              _Ret=int,
+              _Ty=task_lambda::<lambda_556b4aaefa35b145d70024edf65aad6d>,
+              _Fx=task_lambda::<lambda_556b4aaefa35b145d70024edf65aad6d>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\future(1770): note: see reference to function template instantiation 'std::_Packaged_state<_Ret (int,int)>::_Packaged_state<_Ty>(_Fty2 &&)' being compiled
+          with
+          [
+              _Ret=int,
+              _Ty=task_lambda::<lambda_556b4aaefa35b145d70024edf65aad6d>,
+              _Fty2=task_lambda::<lambda_556b4aaefa35b145d70024edf65aad6d>
+          ]
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\future(1769): note: see reference to function template instantiation 'std::_Packaged_state<_Ret (int,int)>::_Packaged_state<_Ty>(_Fty2 &&)' being compiled
+          with
+          [
+              _Ret=int,
+              _Ty=task_lambda::<lambda_556b4aaefa35b145d70024edf65aad6d>,
+              _Fty2=task_lambda::<lambda_556b4aaefa35b145d70024edf65aad6d>
+          ]
+  c:\c++threads\packagedtaskwrapcallableassync\packagedtaskwrapcallableassync\packagedtaskwrapcallableassync.cpp(18): note: see reference to function template instantiation 'std::packaged_task<int (int,int)>::packaged_task<task_lambda::<lambda_556b4aaefa35b145d70024edf65aad6d>,void>(_Fty2 &&)' being compiled
+          with
+          [
+              _Fty2=task_lambda::<lambda_556b4aaefa35b145d70024edf65aad6d>
+          ]
+  c:\c++threads\packagedtaskwrapcallableassync\packagedtaskwrapcallableassync\packagedtaskwrapcallableassync.cpp(16): note: see reference to function template instantiation 'std::packaged_task<int (int,int)>::packaged_task<task_lambda::<lambda_556b4aaefa35b145d70024edf65aad6d>,void>(_Fty2 &&)' being compiled
+          with
+          [
+              _Fty2=task_lambda::<lambda_556b4aaefa35b145d70024edf65aad6d>
+          ]
+  Generating Code...
+  PackagedTaskWrapCallableAssync.vcxproj -> C:\C++threads\PackagedTaskWrapCallableAssync\Debug\PackagedTaskWrapCallableAssync.exe
+  PackagedTaskWrapCallableAssync.vcxproj -> C:\C++threads\PackagedTaskWrapCallableAssync\Debug\PackagedTaskWrapCallableAssync.pdb (Full PDB)
